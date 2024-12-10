@@ -1,0 +1,83 @@
+.h1{
+        font-family: "Spinnaker", "Roboto", "sans-serif";
+        font-weight: 700;
+}
+
+.h2 {
+    font-family: "ysabeau-office", "roboto", "sans-serif";
+      font-weight: 400;
+    }
+    
+
+.footer-text {
+    font-family: "karla", "roboto", "sans-serif"
+}
+
+.socials {
+    list-style-type:none
+}
+.white-g-logo {
+    width: 30x;
+    height: 40px;
+    margin-right:auto
+}
+
+.nav-bar {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    background-color:#082B59; color:#F2F2F2; 
+}
+.nav-list {
+    list-style: none;
+    display:flex;
+  }
+  .menu {
+    padding-right: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #F2F2F2; /* Default link color */
+}
+
+.nav-list li a:hover {
+    color:#D98555; /* Change this to your desired hover color */
+}
+
+.about-container {
+    display: flex; /* Enable flexbox*/
+    flex-direction: column; /*stack items vertically */
+    align-items: center; /*center items horizontally*/
+    color:#D98555;
+}
+
+.about-container h2 {
+    font-size: 36px;
+           font-family: "ysabeau-office", "roboto", "sans-serif";
+        }
+
+
+.about-image {
+    display: flex; /* Enable flexbox*/
+    justify-content: center; /* Center items vertically */
+}
+ .about-content {
+    display: flex; /* Enable flexbox*/
+    flex-direction: column; /*stack items vertically */
+    align-items: center; /*center items horizontally*/
+    justify-content: center; /* Center items vertically */
+    padding: 5px; /* play around with the px until it looks good */
+    text-align: justify; /* Center text within the content */
+ }
+ .about-content {
+    width: 500px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border: 2px;
+    border-style: groove;
+    border-color: #d98555;
+    border-radius: 8px;
+ }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Spinnaker&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+h2 {
+    font-family: "Spinnaker", "Roboto", serif;
+    font-size: 40px;
+ }
+
+
+p {
+   font-family: "Ysabeau Office", "Roboto", serif;
+   font-size: 18px;
+}
+
+footer p{
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color:  #59331D;
+}
